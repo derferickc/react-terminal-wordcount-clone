@@ -1,5 +1,7 @@
 # React Terminal Wordcount Clone
 
+<a href="https://terminal-wordcount-clone.firebaseapp.com">Live app</a>
+
 > A simple app that counts the lines, words, and bytes submitted within a form's textarea
 
 > Technology used: React, HTML5, ES6
