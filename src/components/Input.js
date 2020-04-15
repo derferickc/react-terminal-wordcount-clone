@@ -22,8 +22,8 @@ class Input extends Component {
 	}
 
 	render () {
-		// var value = this.state.input.replace('\\n', '\n');
-		
+		const { input } = this.state
+
 		return (
 			<div>
 				<h1>Hello Versium Team</h1>
@@ -32,13 +32,13 @@ class Input extends Component {
 						<textarea
 							type="text"
 							name="wordcountTextarea"
-							value={value}
+							value={input}
 							onChange={this.handleChange}
 						/>
 					</div>
 					<button
 						type="submit"
-					>Submit Wordcount</button>
+					>Submit</button>
 				</form>
 			</div>
 		)
